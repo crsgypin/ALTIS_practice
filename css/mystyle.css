@@ -1,0 +1,36 @@
+
+
+.red-background{
+	background-color: green;
+}
+
+.view1 {
+	width:100%;
+}
+
+
+.right-pic tr td {
+	padding: 10px;
+
+}
+
+
+
+.unit-block{
+	width:32%;
+	height:350px;
+	margin: 3px;
+	padding: 10px;
+	border: 1px solid #eee;
+	float:left;
+	
+}
+
+.unit-block .view{
+
+	width:100%;
+
+}
+
+
+
