@@ -1,6 +1,6 @@
 
 
-.red-background{
+.aa{
 	background-color: green;
 }
 
@@ -8,21 +8,81 @@
 	width:100%;
 }
 
-
-.right-pic tr td {
+.head-row table tr td{
 	padding: 10px;
+}
+
+
+.top{
+	color:white;
+	height:50px;
+	background-color: black;
+}
+
+.top-left{
+	float:left;
+	margin-left:200px;
+	margin-top:10px;
+}
+
+.top-right{
+	margin-right:200px;
+	float:right;
+}
+
+.top-right ul{
+	margin-top:10px;
+	float:left;
+}
+
+.top-right ul li{
+	display: inline-block;
+	list-style: none;
+	margin-right:10px;
+}
+
+
+/*top 2 */
+.top-2{
+	background-color: #333;
+	color:white;
+	height:50px;
+	font-size:1.2em;
+}
+
+.top-2-1{
+	width:200px;
+	margin-top:10px;
+	margin-left:200px;
+	display: inline-block;
+}
+
+.top-2-2{
+	display: inline-block;
+}
+
+.top-2-2 ul li{
+	display: inline-block;
+	list-style: none;
+	margin-right:10px;
 
 }
 
 
+/* contain */
+.container{
+	margin-top:10px;
+}
+
 
 .unit-block{
 	width:32%;
-	height:350px;
+	height:380px;
 	margin: 3px;
 	padding: 10px;
 	border: 1px solid #eee;
 	float:left;
+
 	
 }
 
@@ -30,6 +90,94 @@
 
 	width:100%;
 
+}
+
+
+/* content right */
+.content-right{
+	margin:0px;
+}
+
+.content-right-1{
+	height:260px;
+	border: 1px solid #eee;
+	margin-left:-20px;
+
+}
+
+.content-right-1 .btn{
+	margin-left:auto;
+	margin-right:auto;
+	width:30%;
+	display:inline;
+
+}
+
+.content-right-1 .view2{
+	width:100%;
+}
+
+.content-right-1-1 {
+	text-align: center;
+}
+
+.content-right-1-2{
+	margin:5px;
+	border: 1px solid #000;	
+}
+
+.content-right-1-2-1 {
+	border-bottom: 1px solid #eee;
+}
+.content-right-1-2-1 .view2{
+	margin:5px;
+	width:50px;
+	height:50px;
+
+}
+
+.content-right-1-2-3{
+	margin-left:auto;
+	margin-right:auto;
+	width:90%;
+}
+
+.content-right-1-2-3 .view2{
+	width:45px;
+	height:45px;
+	padding: 1px;
+}
+
+.content-right-1-2-4{
+	margin-top:5px;
+	border-top: 1px solid #eee;
+}
+
+
+.content-right-2{
+	border: 1px solid #eee;
+	margin-top:20px;
+	margin-left:-10px;
+}
+
+
+
+
+.content-right-2-div{
+	border-bottom: 1px solid #eee;
+	margin:4px;
+	height:220px;
+}
+
+.content-right-2-div .view2{
+	width:60%;
+	height:170px;
+	float:left;
+}
+
+.content-right-3 {
+	border:1px solid #eee;
+	margin:2px;
 }
 
 
