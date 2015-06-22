@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		.container {
+			min-width:400px;
+			max-width: 600px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		.content{
+			width:90%;
+			margin-left: 5%;
+			margin-top:-100px;
+			background-color: white;
+			padding: 20px;
+		}
+
+		.content h2 li{
+			list-style: none;
+			display: inline-block;
+			color:#aaa;
+		}
+		
+		.content h2 li::after{
+			content:"/";
+		}
+		
+
+		.content .read-me::before{
+			content:"=====   ";
+		}
+
+		.content .read-me::after{
+			content:"   =====";
+		}
+
+		.content .read-me {
+			margin-left: auto;
+			margin-right: auto;
+			text-align: center;
+		}
+
+
+		.content .meta ul{
+			float:right;
+		}
+
+		.content .meta li{
+			list-style: none;
+			display: inline-block;
+			color:#a88;
+
+		}
+		
+
+
+
+
+	</style>
+
+
+</head>
+<body>
+	
+	<div class="container">
+		<div><img src="http://www.independent.co.uk/incoming/article8465213.ece/alternates/w620/v2-cute-cat-picture.jpg">
+		</div>
+
+		<div class="content">
+			<h1>
+				A Large Heading Size Of the image
+			</h1>
+
+			<h2>
+				<ul>
+					<li>Music</li>
+					<li>love</li>
+					<li>media</li>
+					<li>sports</li>
+					<li>food</li>
+				</ul>
+			</h2>
+
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium nulla velit perferendis sequi, nostrum voluptatem nam nihil. Odit iusto ducimus necessitatibus commodi iure sapiente laudantium, tempore, non facere quae esse.
+			</p>
+
+			<div class="read-me">
+				<a href="#">Read More</a>
+			</div>
+
+			<div class="meta">
+				<div class="author">
+					<p>Posted by xxxxx</p>
+					<p>On Dec	</p>
+				</div>
+
+				<ul class="social-icon">
+					<li>FB</li>>
+					<li>TW</li>>
+					<li>Goo</li>>	
+					<li>se</li>>	
+				</ul>
+			</div>
+
+		</div>
+
+
+
+	</div>
+
+
+</body>
+</html>
+
+
+
