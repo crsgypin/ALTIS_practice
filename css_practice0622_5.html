@@ -7,16 +7,25 @@
 		.container {
 			min-width:400px;
 			max-width: 600px;
+			height: 1000px;	
 			margin-left: auto;
 			margin-right: auto;
+			background-color: #aaa;
+		}
+
+		.image{
+			position: relative;
+			z-index: 2;
 		}
 
 		.content{
 			width:90%;
 			margin-left: 5%;
 			margin-top:-100px;
-			background-color: white;
+			background-color: white;	
 			padding: 20px;
+			position: relative;
+			z-index: 3;
 		}
 
 		.content h2 li{
@@ -29,21 +38,35 @@
 			content:"/";
 		}
 		
-
-		.content .read-me::before{
-			content:"=====   ";
+		.content h2 li:last-child::after{
+			content:"";
 		}
 
-		.content .read-me::after{
-			content:"   =====";
+		.content .read-more::before{
+			content:"";
+			display: block;
+			width:100%;
+			background-color: red;
+			height: 2px;
+			top:10px;
+			position: relative;
+
+			z-index: 1;
 		}
 
-		.content .read-me {
+		.content .read-more {
 			margin-left: auto;
 			margin-right: auto;
 			text-align: center;
 		}
 
+		.content .read-more a{
+			background-color: green;
+			position: relative;
+			z-index:2;
+			border-left: 8px solid #fff;
+			border-right: 8px solid #fff;
+		}
 
 		.content .meta ul{
 			float:right;
@@ -67,7 +90,7 @@
 <body>
 	
 	<div class="container">
-		<div><img src="http://www.independent.co.uk/incoming/article8465213.ece/alternates/w620/v2-cute-cat-picture.jpg">
+		<div class="image"><img src="http://www.independent.co.uk/incoming/article8465213.ece/alternates/w620/v2-cute-cat-picture.jpg">
 		</div>
 
 		<div class="content">
@@ -89,7 +112,7 @@
 				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium nulla velit perferendis sequi, nostrum voluptatem nam nihil. Odit iusto ducimus necessitatibus commodi iure sapiente laudantium, tempore, non facere quae esse.
 			</p>
 
-			<div class="read-me">
+			<div class="read-more">
 				<a href="#">Read More</a>
 			</div>
 
